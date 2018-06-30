@@ -183,3 +183,36 @@ button {
 ul.a {
     list-style-type: circle;
 }
+
+
+
+@media screen and (max-width: 980px) {
+
+    .container {
+        width: 66%;
+        height: 100%;
+        float: left;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #main-bio {
+        width: 100%;
+    }
+
+    footer {
+        float: right;
+        margin-top: 20px;
+    }
+
+    .topbar {
+        width: 100%;
+        float: left;
+        padding-left: 40px;
+    }
+
+    .link_tabs {
+        width: 50%;
+        float: left;
+    }
+}

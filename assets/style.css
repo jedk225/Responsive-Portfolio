@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-image: url(images/what-the-hex.png);
     font-family: Arial, Helvetica, sans-serif;
@@ -189,7 +190,7 @@ ul.a {
 @media screen and (max-width: 980px) {
 
     .container {
-        width: 66%;
+        width: 650px;
         height: 100%;
         float: left;
         margin-left: 40px;
@@ -212,7 +213,121 @@ ul.a {
     }
 
     .link_tabs {
-        width: 50%;
+        width: 80%;
         float: left;
     }
+
+    .port_images {
+        margin-left: 20px;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    .port_images h4 {
+        background-color: #4eaaa4;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        font-size: 16px;
+        height: 50px;
+        max-width: 250px;
+        padding-top: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+    
+    .img-size {
+        max-height: 150px;
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 650px;
+    }
+
+    .port_images h4 {
+        background-color: #4eaaa4;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        font-size: 16px;
+        height: 50px;
+        max-width: 250px;
+        padding-top: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+    
+    .img-size {
+        max-height: 200px;
+        max-width: 250px;
+    }
+
+    .link_tabs {
+        width: 52%;
+        float: left;
+    }
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+  
+    .container {
+        margin-top: 90px;
+        width: 576px;
+    }
+
+   h1 {
+        width: 640px;
+        float: left;
+        text-align: center;
+        margin: 0;
+        
+    }
+
+    .topbar {
+        width: 640px;
+        height: 128px;
+        margin: 0 auto;
+        padding: 0;
+       
+    }
+
+    .link_tabs {
+        width: 640px;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .img-size {
+        max-height: 400px;
+        max-width: 400px;
+    }
+
+    .port_images h4 {
+        background-color: #4eaaa4;
+        color: #ffffff;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+        font-size: 20px;
+        height: 50px;
+        max-width: 400px;
+        padding-top: 10px;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .port_images {
+        margin-left: 40px;
+    }
+    
+
+
 }
